@@ -15,8 +15,8 @@ body {
   width: 1200px;
   height: 900px;
   /*background-image: url("image/pokestop.jpg");*/
-  background-color: antiquewhite;
-  border: 2px solid antiquewhite;
+  /*background-color: antiquewhite;*/
+  /*border: 2px solid antiquewhite;*/
   border-radius: 10px;
   display: flex;
   flex-direction: column;

@@ -163,21 +163,21 @@ const levelController = () => {
 const levelDirection = () => {
   let level_info = level_select.options[level_select.selectedIndex].text
   switch (level_info) {
-    case 'Easy':
+    case 'Level 1':
       break
-    case 'Medium':
+    case 'Level 2':
       flowToLeft()
       break
-    case 'Hard':
+    case 'Level 3':
       flowToRight()
       break
-    case 'Extreme':
+    case 'Level 4':
       flowToBottom()
       break
-    case 'Terrible':
+    case 'Level 5':
       flowToTop()
       break
-    case 'Nightmare':
+    case 'Level 6':
       moveRightHaftToLeft()
       moveLeftHaftToRight()
       break
